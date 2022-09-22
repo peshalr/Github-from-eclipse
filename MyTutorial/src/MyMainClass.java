@@ -15,7 +15,7 @@ public class MyMainClass{
 				
 		MyInterface myInterface = (num1, num2) -> {return (num1-num2);};
 		
-		System.out.println("Subraction my ass: "+ myInterface.subtract(1, 3));
+		System.out.println("Subraction my ass 2: "+ myInterface.subtract(1, 3));
 		
 		BookService bcBookService = new BookService();
 		System.out.println(bcBookService.getBooksInSort());
